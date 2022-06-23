@@ -1,0 +1,47 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: #800000;
+  color: #fffafa;
+  padding-top: 130px;
+  padding-bottom: 70px;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 4vw;
+  padding: 30px;
+  margin-top: -120px;
+  border-radius: 50px;
+  color: black;
+  font-weight: 100px;
+}
+
+.pageTop {
+  top: 0;
+  position: absolute;
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .pageTitle {
+    margin-top: -70px;
+  }
+}
